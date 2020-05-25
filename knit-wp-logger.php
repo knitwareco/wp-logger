@@ -2,6 +2,7 @@
 /**
  * @author Ben Ward
  * @copyright (c) 2020 Knitware
+ * @version v0.1
  * @link https://knitware.co
  */
 namespace Knitware\WordPress;
