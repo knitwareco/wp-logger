@@ -99,6 +99,10 @@ class Logger {
     }
   }
 
+  public function admin_url() {
+    return admin_url('edit.php?post_type=' . $this->post_type);
+  }
+
   // TODO: Make the $level an enum rather than strings
   public function log(string $title, string $message = '', array $lines = array(), string $level = "notice") {
     if ('debug' == $level && !WP_DEBUG) {
